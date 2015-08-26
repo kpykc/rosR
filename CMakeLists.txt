@@ -84,7 +84,7 @@ execute_process(COMMAND swig2.0 -c++ -r -outdir ${PROJECT_SOURCE_DIR}/lib/ ${PRO
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  INCLUDE_DIRS include
+  #INCLUDE_DIRS include
   LIBRARIES rosR
 #  CATKIN_DEPENDS rosbag roscpp rospy rospy topic_tools
 #  DEPENDS system_lib
