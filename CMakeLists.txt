@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
 # catkin_python_setup()
 
-execute_process(COMMAND swig2.0 -c++ -r -outdir ${PROJECT_SOURCE_DIR}/lib/ ${PROJECT_SOURCE_DIR}/src/rosR.i)
+execute_process(COMMAND swig -c++ -r -outdir ${PROJECT_SOURCE_DIR}/lib/ ${PROJECT_SOURCE_DIR}/src/rosR.i)
 
 ################################################
 ## Declare ROS messages, services and actions ##
